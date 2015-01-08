@@ -26,6 +26,7 @@ public class MendelbrottFractal {
 	private static final int MAX_COLORS = 256;
 
 	public static void main(String args[]) {
+		
 		fractal = new MendelbrottFractal();
 		outputImg = new BufferedImage(400, 400, BufferedImage.TYPE_INT_ARGB);
 		g = outputImg.getGraphics();
